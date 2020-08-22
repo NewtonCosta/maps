@@ -152,6 +152,7 @@ a:hover {
   background-color: #333;
   padding-right: 90px;
   font-size: 14px;
+  padding-right: 150px;
 }
 
 /* Style the topnav links */
@@ -161,6 +162,7 @@ a:hover {
   color: #f2f2f2;
   text-align: center;
   padding: 12px 14px;
+ 
   text-decoration: none;
 }
 
@@ -182,6 +184,10 @@ a:hover {
   height: 85px;
   margin-bottom: 10px;
   color: #190233;
+}
+
+.page-content > h2 {
+  padding-left: 40px;
 }
 
 .wrapper {
