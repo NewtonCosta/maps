@@ -28,11 +28,12 @@
       <h2>HTML5 Geolocation + Google Maps</h2>
     </div>
     
-    <div class="centered">     
-       <div id="map"></div>
-    </div>
+    <div class="wrapper centered">
+      <div id="map">
+   </div>
+    
  
-
+  </div>
   <div class="footer">
     <p>Copyright &copy; Newton Costa 2020</p>
   </div>
@@ -40,7 +41,21 @@
 
 
   <!-----------------Script Area------------------->  
-  <script src="./script/ps.js"></script>
+ 
+  <script>
+    function initMap() {
+    var map = new google.maps.Map(document.getElementById('map'), {
+      zoom: 13,
+      center: {lat: -8.8533562, lng: 13.2140641} 
+    });
+  
+    var trafficLayer = new google.maps.TrafficLayer();
+    trafficLayer.setMap(map);
+  }
+  </script>
+   
+   <script src="./script/js.js"></script>
+
   
 </body>
 
