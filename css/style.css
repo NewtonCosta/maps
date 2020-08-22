@@ -77,7 +77,7 @@ body {
        * element that contains the map. */
        #map{
         height: 70%;
-        width: 100%;       
+        width: 90%;       
     }
 
  
@@ -86,7 +86,7 @@ body {
 .centered {
   position: fixed;
   top: 25%;
-  left: 15%;
+  left: 20%;
   right: 10%;
   margin-top: -50px;
   margin-left: -100px;
