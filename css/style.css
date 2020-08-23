@@ -65,9 +65,9 @@ body {
   flex-direction: column;
   text-align: center;  
   color: #190233;
-  height: 500px;
+  height: 450px;
   min-height: 75%;
-  margin-top: 5px;
+  margin-top: 4px;
 }
 
 
@@ -121,7 +121,7 @@ a:hover {
 }
 
 .text {
-  font-size: larger;
+  font-size: 20;
   font-stretch: semi-condensed;
 }
 
@@ -133,8 +133,9 @@ a:hover {
 }
 
 .subtitle {
-  font-size: 25px;
+  font-size: 30px;
   line-height: 5px;
+  
 }
 
 #separator {
